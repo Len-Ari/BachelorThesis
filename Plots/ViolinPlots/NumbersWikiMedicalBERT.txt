@@ -1,0 +1,5 @@
+Numbers for Model: WikiMedicalBERT
+───────────────────────────────────
+Article-Title Mean: 0.81014
+Average Similarity: 0.33064
+Scaled Article-Title Mean: 2.45024

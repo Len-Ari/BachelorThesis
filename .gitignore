@@ -1,0 +1,7 @@
+*.pyc
+
+.ipynb_checkpoints
+Data
+datasets
+Embeddings
+Models
