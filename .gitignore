@@ -1,7 +1,8 @@
 *.pyc
 
 .ipynb_checkpoints
-Data
-datasets
-Embeddings
-Models
+/Data/*
+/datasets/*
+/Embeddings/*
+/Models/*
+!/Data/synonym_sentence_pairs.json
