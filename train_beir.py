@@ -1,4 +1,6 @@
 '''
+This is code from https://github.com/beir-cellar/beir/blob/main/examples/retrieval/training/train_sbert.py
+
 This examples show how to train a basic Bi-Encoder for any BEIR dataset without any mined hard negatives or triplets.
 
 The queries and passages are passed independently to the transformer network to produce fixed sized embeddings.
@@ -9,8 +11,6 @@ For training, we use MultipleNegativesRankingLoss. There, we pass pairs in the f
 
 We do not mine hard negatives or train triplets in this example.
 
-Running this script:
-python train_sbert.py
 '''
 
 from sentence_transformers import losses, models, SentenceTransformer
@@ -43,21 +43,17 @@ dev_corpus, dev_queries, dev_qrels = GenericDataLoader(data_path).load(split="de
 from save_load_models import load_model_sentencetransformer
 
 sPubMedBert = './Models/SPubMedBERT'
-sPubMedBertFinetunedv1 = './Models/Finetunedv1/SPubMedBERT/end_model'
-sPubMedBertFinetunedv2 = './Models/Finetunedv2/SPubMedBERT/end_model'
 
 model_path = sPubMedBert
-#model = load_model_sentencetransformer(model_path)
+model = load_model_sentencetransformer(model_path)
 
 
 # Huggingface model
+"""
 model_path = "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext" 
 word_embedding_model = models.Transformer(model_path, max_seq_length=350)
 pooling_model = models.Pooling(word_embedding_model.get_word_embedding_dimension())
 model = SentenceTransformer(modules=[word_embedding_model, pooling_model])
-"""
-# Or Sentence Transformer
-model = SentenceTransformer("msmarco-distilbert-base-v3")
 """
 
 retriever = TrainRetriever(model=model, batch_size=32)
