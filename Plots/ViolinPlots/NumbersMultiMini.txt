@@ -1,5 +1,5 @@
 Numbers for Model: MultiMini
 ───────────────────────────────────
-Article-Title Mean: 0.66495
-Average Similarity: 0.12183
-Scaled Article-Title Mean: 5.45791
+Article-Title Mean: 0.67696
+Average Similarity: 0.13985
+Scaled Article-Title Mean: 4.84062

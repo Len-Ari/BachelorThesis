@@ -1,5 +1,5 @@
 Numbers for Model: MsMarcoMini
 ───────────────────────────────────
-Article-Title Mean: 0.60914
-Average Similarity: 0.15481
-Scaled Article-Title Mean: 3.93475
+Article-Title Mean: 0.60402
+Average Similarity: 0.14045
+Scaled Article-Title Mean: 4.30069

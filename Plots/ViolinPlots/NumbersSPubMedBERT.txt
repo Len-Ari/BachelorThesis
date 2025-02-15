@@ -1,5 +1,5 @@
 Numbers for Model: SPubMedBERT
 ───────────────────────────────────
-Article-Title Mean: 0.94964
-Average Similarity: 0.86246
-Scaled Article-Title Mean: 1.10108
+Article-Title Mean: 0.94915
+Average Similarity: 0.86277
+Scaled Article-Title Mean: 1.10012

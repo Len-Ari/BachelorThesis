@@ -1,0 +1,5 @@
+Numbers for Model: SPubMedBERTFinetunedv1
+───────────────────────────────────
+Article-Title Mean: 0.78849
+Average Similarity: 0.07871
+Scaled Article-Title Mean: 10.01799

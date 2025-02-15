@@ -1,5 +1,5 @@
 Numbers for Model: SPubMedBERTFinetunedNfcorpus
 ───────────────────────────────────
-Article-Title Mean: 0.86452
-Average Similarity: 0.52922
-Scaled Article-Title Mean: 1.63357
+Article-Title Mean: 0.86250
+Average Similarity: 0.52719
+Scaled Article-Title Mean: 1.63602
