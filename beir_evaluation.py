@@ -20,17 +20,16 @@ sPubMedBert = './Models/SPubMedBERT'
 
 sPubMedBertFinetunedv1 = './Models/Finetunedv1/SPubMedBERT/end_model'
 sPubMedBertFinetunedv2 = './Models/Finetunedv2/SPubMedBERT/end_model'
-sPubMedBertFinetunedv2low = './Models/Finetunedv2/SPubMedBERT_low/end_model'
 sPubMedBertFinetuneNfcorpus = './Models/Finetuned/SPubMedBERT-v1-nfcorpus'
 
 pubMedBertV1Nfcorpus = './Models/Finetuned/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext-v1-nfcorpus'
 
-model_path = pubMedBertV1Nfcorpus
+model_path = sPubMedBertFinetuneNfcorpus
 embedding_strategy = 'split'
 
 # nfcorpus
 # trec-covid
-dataset = "trec-covid"
+dataset = "nfcorpus"
 
 class YourCustomModel:
     def __init__(self, model_path=None, embedding_type='combined', **kwargs):
