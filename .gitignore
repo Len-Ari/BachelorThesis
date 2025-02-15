@@ -13,14 +13,3 @@ train_beir_msmarco.py
 /Embeddings/*
 
 /Models/*
-!/Models/Finetuned/
-Models/Finetuned/*
-!/Models/Finetuned/SPubMedBERT-v1-nfcorpus
-
-!/Models/Finetunedv1/
-Models/Finetunedv1/*
-!Models/Finetunedv1/SPubMedBERT
-
-!/Models/Finetunedv2/
-Models/Finetunedv2/*
-!/Models/Finetunedv2/SPubMedBERT
