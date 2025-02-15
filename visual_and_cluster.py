@@ -99,7 +99,8 @@ def plot_reduce_dimensions(embeddings, methods=['pca'], labels=None, has_unlabel
 
         if len(labels)>1:
             handles, _ = ax2.legend_elements()
-            legend2 = ax.legend(handles=handles, labels=labels, title="Label Index")
+            l = ['Title-Embedding', 'Abstract-Embedding'] if len(set(labels))  == 2 else labels
+            legend2 = ax.legend(handles=handles, labels=l, title="Labels")
             ax.add_artist(legend2)
         ret.append(tsne_agglo_50_results[:emb_len])
 
