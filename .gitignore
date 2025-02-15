@@ -1,4 +1,6 @@
 *.pyc
+tmp.txt
+conda_packages.txt
 
 .ipynb_checkpoints
 /Data/*

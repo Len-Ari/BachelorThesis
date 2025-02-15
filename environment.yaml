@@ -40,7 +40,7 @@ dependencies:
   - bzip2=1.0.8=h5eee18b_6
   - c-ares=1.19.1=h5eee18b_0
   - ca-certificates=2024.12.31=h06a4308_0
-  - certifi=2024.12.14=py312h06a4308_0
+  - certifi=2025.1.31=py312h06a4308_0
   - cffi=1.17.1=py312h1fdaa30_1
   - charset-normalizer=3.3.2=pyhd3eb1b0_0
   - comm=0.2.1=py312h06a4308_0
@@ -257,6 +257,7 @@ dependencies:
   - safetensors=0.4.5=py312hc50d6dc_1
   - scikit-learn=1.5.2=py312h6a678d5_0
   - scipy=1.15.1=py312hc5e2394_0
+  - seaborn=0.13.2=py312h06a4308_1
   - send2trash=1.8.2=py312h06a4308_1
   - sentence-transformers=3.3.1=pyhd8ed1ab_1
   - setuptools=75.1.0=py312h06a4308_0
