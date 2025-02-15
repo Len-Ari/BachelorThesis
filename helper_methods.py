@@ -225,7 +225,7 @@ def loop_through_directory(dir_path, dir_path_out, seq_len, seq_overlap, model, 
             if entry.is_file():
                 filepath_out = dir_path_out + os.path.splitext(os.path.basename(entry.path))[0] + '-Embedded.jsonl'
                 calculate_embedding_and_save(entry.path, filepath_out, seq_len, seq_overlap, model, tokenizer, chunk_fnc, embedding_types, batchsize)
-            elif entry.is_dir():
+            elif entry.is_dir() and not entry.path.startswith('.'):
                 loop_through_directory(entry.path, dir_path_out, seq_len, seq_overlap, model, tokenizer, chunk_fnc, embedding_types, batchsize)
 
 
