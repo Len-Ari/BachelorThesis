@@ -18,7 +18,10 @@ Based on this the fine-tuned models can also be created by using the files  `Tra
 
 ### Data
 
-In the data folder the Pubmed articles need to be added. For this the structure descibed in the thesis needs to be rebuild. Additionally the three datasets as they are shown in the thesis need to be created.
+In the data folder the Pubmed articles need to be added.
+They can be extracted from https://pmc.ncbi.nlm.nih.gov/tools/openftlist/ using their official tools.
+
+For this the structure descibed in the thesis needs to be rebuild. Additionally the three datasets as they are shown in the thesis need to be created.
 
 ## Plots
 All plots that are shown in the Thesis, as well as some additional ones, are saved in the Plots folder.
